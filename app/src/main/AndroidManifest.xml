@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FlippedUIKitActivity"
+            android:exported="false" />
+        <activity android:name=".FlippedArcProgressBarActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlippedArcProgressBar">
+        <attr name="arc_background_color" format="color"/>
+        <attr name="arc_progress_color" format="color"/>
+        <attr name="arc_progress_text_color" format="color"/>
+        <attr name="percent" format="float" />
+        <attr name="arc_is_show_progress_text" format="boolean"/>
+    </declare-styleable>
+</resources>

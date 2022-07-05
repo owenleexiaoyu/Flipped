@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class FlippedUIKitActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        findViewById<Button>(R.id.btn_flipped_uikit).setOnClickListener {
-            startActivity(Intent(this, FlippedUIKitActivity::class.java))
+        setContentView(R.layout.activity_flipped_uikit)
+
+        findViewById<Button>(R.id.btn_flipped_arc_progress_bar).setOnClickListener {
+            startActivity(Intent(this, FlippedArcProgressBarActivity::class.java))
         }
+
     }
 }

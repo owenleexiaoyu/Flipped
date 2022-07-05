@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <life.lixiaoyu.flipped.uikit.FlippedArcProgressBar
+        android:id="@+id/animated_progress_bar_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        app:arc_background_color="#3c3c3c"
+        app:percent="0.34"
+        app:arc_is_show_progress_text="true"
+        />
+
+    <life.lixiaoyu.flipped.uikit.FlippedArcProgressBar
+        android:id="@+id/animated_progress_bar_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        app:arc_background_color="#1565c0"
+        app:percent="1"
+        app:arc_progress_color="#42a5f5"
+        app:arc_is_show_progress_text="true"
+        />
+
+    <life.lixiaoyu.flipped.uikit.FlippedArcProgressBar
+        android:id="@+id/animated_progress_bar_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        app:arc_background_color="#ff9800"
+        app:percent="0.65"
+        app:arc_progress_color="#ffc107"
+        app:arc_is_show_progress_text="true"
+        />
+
+</LinearLayout>

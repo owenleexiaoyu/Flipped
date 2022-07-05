@@ -9,9 +9,9 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn_flipped_uikit"
+        android:id="@+id/btn_flipped_arc_progress_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Flipped Uikit" />
+        android:text="FlippedArcProgressBar" />
 
 </LinearLayout>
