@@ -13,6 +13,11 @@ class FlippedUIKitActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_flipped_arc_progress_bar).setOnClickListener {
             startActivity(Intent(this, FlippedArcProgressBarActivity::class.java))
         }
-
+        findViewById<Button>(R.id.btn_flipped_nav_bar).setOnClickListener {
+            startActivity(Intent(this, FlippedNavBarDemoActivity::class.java))
+        }
+        findViewById<Button>(R.id.btn_flipped_cell_item_view).setOnClickListener {
+            startActivity(Intent(this, FlippedCellItemViewDemoActivity::class.java))
+        }
     }
 }

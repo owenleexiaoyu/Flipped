@@ -22,6 +22,8 @@
             android:exported="false" />
         <activity android:name=".FlippedArcProgressBarActivity"
             android:exported="false" />
+        <activity android:name=".FlippedNavBarDemoActivity" android:exported="false" />
+        <activity android:name=".FlippedCellItemViewDemoActivity" android:exported="false" />
     </application>
 
 </manifest>

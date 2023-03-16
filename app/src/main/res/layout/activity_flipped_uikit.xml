@@ -14,4 +14,15 @@
         android:layout_height="wrap_content"
         android:text="FlippedArcProgressBar" />
 
+    <Button
+        android:id="@+id/btn_flipped_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FlippedNavBar" />
+
+    <Button
+        android:id="@+id/btn_flipped_cell_item_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FlippedCellItemView" />
 </LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="_FlippedCellItemView">
+        <attr name="flipped_start_icon" />
+        <attr name="start_text" format="string|reference"/>
+    </declare-styleable>
+</resources>
