@@ -64,11 +64,11 @@ class FlippedNavBar @JvmOverloads constructor(
         if (ta.hasValue(R.styleable._FlippedNavBar_end_icon_size)) {
             mEndIconSize = ta.getDimensionPixelSize(R.styleable._FlippedNavBar_end_icon_size, -1)
         }
-        if (ta.hasValue(R.styleable._FlippedCellItemView_flipped_start_icon)) {
+        if (ta.hasValue(R.styleable._FlippedNavBar_flipped_start_icon)) {
             setStartIcon(
                 ContextCompat.getDrawable(
                     context,
-                    ta.getResourceId(R.styleable._FlippedCellItemView_flipped_start_icon, 0)
+                    ta.getResourceId(R.styleable._FlippedNavBar_flipped_start_icon, 0)
                 )!!
             )
         }
