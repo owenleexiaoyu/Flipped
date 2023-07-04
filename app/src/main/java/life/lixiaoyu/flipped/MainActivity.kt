@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_flipped_uikit).setOnClickListener {
             startActivity(Intent(this, FlippedUIKitActivity::class.java))
         }
+        findViewById<Button>(R.id.btn_flipped_livedatabus).setOnClickListener {
+            startActivity(Intent(this, FlippedLiveDataBusActivity::class.java))
+        }
     }
 }

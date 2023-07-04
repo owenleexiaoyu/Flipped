@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_send_normal_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送普通事件 Event1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="验证粘性事件的发送和接收，先点击【发送粘性事件】按钮，再点击【注册观察者按钮】，观察两个【注册观察者按钮】的表现的区别"
+        />
+
+    <Button
+        android:id="@+id/btn_send_sticky_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送粘性事件 Event2" />
+
+    <Button
+        android:id="@+id/btn_observe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册观察者，不接收粘性事件" />
+
+    <Button
+        android:id="@+id/btn_observeSticky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册观察者，接收粘性事件" />
+</LinearLayout>

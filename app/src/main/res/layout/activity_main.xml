@@ -13,5 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Flipped Uikit" />
-
+    <Button
+        android:id="@+id/btn_flipped_livedatabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flipped LiveDataBus" />
 </LinearLayout>

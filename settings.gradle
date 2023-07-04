@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Flipped"
 include ':app'
 include ':flipped_uikit'
+include ':flipped_livedatabus'
+project(":flipped_livedatabus").projectDir = new File("./utils/flipped_livedatabus")

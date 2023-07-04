@@ -24,6 +24,7 @@
             android:exported="false" />
         <activity android:name=".FlippedNavBarDemoActivity" android:exported="false" />
         <activity android:name=".FlippedCellItemViewDemoActivity" android:exported="false" />
+        <activity android:name=".FlippedLiveDataBusActivity" />
     </application>
 
 </manifest>
