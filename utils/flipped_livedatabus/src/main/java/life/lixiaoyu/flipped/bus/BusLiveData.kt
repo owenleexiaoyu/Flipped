@@ -20,8 +20,8 @@ class BusLiveData<T>(
         private set
 
     public override fun setValue(value: T) {
-        super.setValue(value)
         version++
+        super.setValue(value)
     }
 
     public override fun postValue(value: T) {

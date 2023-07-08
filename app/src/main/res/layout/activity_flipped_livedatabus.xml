@@ -14,6 +14,12 @@
         android:layout_height="wrap_content"
         android:text="发送普通事件 Event1" />
 
+    <Button
+        android:id="@+id/btn_send_normal_event_io"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程发送普通事件 Event1" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
