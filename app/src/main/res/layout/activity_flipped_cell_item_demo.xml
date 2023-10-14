@@ -8,17 +8,23 @@
     tools:context=".MainActivity">
 
     <life.lixiaoyu.flipped.uikit.cell.FlippedCellItemView
+        android:background="#11ff0000"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         app:flipped_start_icon="@drawable/ic_info"
-        app:start_text="Hello"
+        app:flipped_start_icon_tint_color="#FF0000"
+        app:flipped_title="Hello"
+        app:flipped_show_divider="false"
         />
 
     <life.lixiaoyu.flipped.uikit.cell.FlippedCellItemView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        app:flipped_start_icon="@drawable/ic_info"
-        app:start_text="Hello"
+        android:layout_height="wrap_content"
+        app:flipped_title="Hello"
+        app:flipped_subtitle="This is a subtitle"
+        app:flipped_title_color="#00FF00"
+        app:flipped_subtitle_color="#0000FF"
+        app:flipped_divider_color="#FF0000"
         />
 
     <TextView
