@@ -17,5 +17,5 @@ include ':app'
 include ':flipped_uikit'
 include ':flipped_livedatabus'
 project(":flipped_livedatabus").projectDir = new File("./utils/flipped_livedatabus")
-include ':flippednet'
-project(":flippednet").projectDir = new File("./net/flippednet")
+//include ':flippednet'
+//project(":flippednet").projectDir = new File("./net/flippednet")
