@@ -41,7 +41,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'life.lixiaoyu.flipped'
-            artifactId = 'flipped-uikit'
+            artifactId = 'uikit'
             version = '1.0.0'
 
             afterEvaluate {

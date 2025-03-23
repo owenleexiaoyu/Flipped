@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -26,6 +27,20 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'life.lixiaoyu.flipped'
+            artifactId = 'livedatabus'
+            version = '1.0.0'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
     }
 }
 
